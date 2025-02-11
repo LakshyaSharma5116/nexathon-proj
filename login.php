@@ -26,11 +26,11 @@ $conn->close();
 
 if( $a == 1 ){
 $_SESSION['pn']=$phone;
-header('Location: '."http://localhost/wordpress/waypool/destination.php" );
+header('Location: '."destination.php" );
 }
 else{
 
-header('Location: '."http://localhost/wordpress/waypool/loginerror.html" );
+header('Location: '."loginerror.html" );
 };
 
 ?>
