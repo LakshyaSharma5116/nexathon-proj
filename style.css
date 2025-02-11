@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(car.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size:50px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.l{
+	font-size:100px;
+    color: wheat;
+    margin-left:55%;
+    margin-top:0%;
+}
+.login{
+    padding-left: 650px;
+    padding-top: 175px;
+    background-image:url(logo_.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+label{
+    font-size: 30px;
+    border: 1px solid wheat;
+    border-radius: 7px;
+    background-color: wheat;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buton{ 
+    font-size: 25px;
+    margin-left: 290px;
+    color: white;
+    background-color: black;
+}
+.input0{margin-left: 10px;height: 30px;font-size: 20px;width: 270px;}
+.input1{margin-left: 137px;height: 30px;font-size: 20px;width: 270px;}
+.input2{margin-left: 58px;height: 30px;font-size: 20px;width: 270px;}
+.input3{margin-left: 38%;height: 30px;font-size: 20px;width: 400px;}
+.dest{
+    height: 5px;
+    margin: 200px;
+}
+.buttno{
+    font-size: 25px;
+    margin-left: 60%;
+    color: white;
+    background-color: black;
+}
+
+.content{
+    color: wheat;
+}
+p1 a{
+	font-size:40px;
+    margin-left: 46%;
+	color: wheat;
+}
+p1 a:hover{
+	color:red;
+}
