@@ -1,6 +1,6 @@
 <?php session_start();
 if(isset($_SESSION['pn'])==0){
-	header('Location: '."http://localhost/wordpress/waypool/login.html");}
+	header('Location: '."login.html");}
 ?>
 <!DOCTYPE html>
 <html lang="en">
